@@ -1,0 +1,25 @@
+{
+  "name": "goldten-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "api": "ts-node ./src/index.ts",
+    "ocr": "ts-node ./src/extract.ts"
+  },
+  "dependencies": {
+    "mongoose": "^5.10.0",
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@types/mongoose": "^5.7.36",
+    "axios": "^0.20.0",
+    "nodemon": "^1.18.9",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  }
+}
